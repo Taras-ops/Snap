@@ -302,7 +302,7 @@ footer{
         gap: 2rem;
     }
 
-    #headerDropdown.active ~ svg{
+    #headerDropdownLink.active ~ svg{
         transform: translateY(-15%) rotate(180deg);
     }
 

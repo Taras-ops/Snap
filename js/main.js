@@ -2,7 +2,7 @@ const burgerMenu = document.getElementById('burgerMenu')
 const headerMenu = document.getElementById('headerMenu')
 const bodyOverlay = document.querySelector('body')
 
-const headerDropdown = document.querySelectorAll('#headerDropdown')
+const headerDropdown = document.querySelectorAll('.headerDropdownLink')
 
 burgerMenu.addEventListener('click', (e) => {
     if (e.target.src) {
