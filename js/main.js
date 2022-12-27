@@ -15,7 +15,7 @@ burgerMenu.addEventListener('click', (e) => {
 headerDropdown.forEach((item) => {
     item.addEventListener('click', (e) => {
         console.log(e.target)
-        dropDownId = e.target.getAttribute('dropdownTo')
+        dropDownId = e.target.getAttribute('data-dropdownTo')
         e.target.classList.toggle('active')
         document.getElementById(dropDownId).classList.toggle('visible')
 })
