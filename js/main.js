@@ -6,7 +6,7 @@ const headerDropdown = document.querySelectorAll('#headerDropdown')
 
 burgerMenu.addEventListener('click', (e) => {
     if (e.target.src) {
-        e.target.src = e.target.src.includes("/images/icon-close-menu.svg") ? "/images/icon-menu.svg" : "/images/icon-close-menu.svg"
+        e.target.src = e.target.src.includes("images/icon-close-menu.svg") ? "images/icon-menu.svg" : "images/icon-close-menu.svg"
         headerMenu.classList.toggle('visible')
         bodyOverlay.classList.toggle('overlay')
     }
